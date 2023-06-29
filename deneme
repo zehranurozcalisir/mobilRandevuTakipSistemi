@@ -1,0 +1,10 @@
+<?php include("baglanti.php");
+                $duyuruAdSorguu=mysqli_query($baglan,"SELECT etkinlik.etkinlik_ad FROM etkinlik ORDER BY etkinlik.etkinlik_id DESC LIMIT 1"); 
+                $roww = mysqli_fetch_row($duyuruAdSorguu);  ?>
+                <?php include("baglanti.php");
+                $url=mysqli_query($baglan,"SELECT etkinlik.etkinlik_url FROM etkinlik ORDER BY etkinlik.etkinlik_id DESC LIMIT 1"); 
+                $url = mysqli_fetch_row($url);  ?>
+                              <script>
+                              var etkinlikGorsel = document.getElementById("etkinlikGorsel"); // div öğesini seçin
+                              var contentArray = [
+                            "<img class='sergi' style='width:90%; height:500px; margin-left:30px' src='<?php echo $url[0] ?>'>",

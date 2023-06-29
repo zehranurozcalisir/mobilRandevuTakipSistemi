@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	
+	font-family: 'Calibri', 'Trebuchet MS', sans-serif; 
+}
+.kapsayici{
+    width:90%;
+    height: 90%;
+        position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+
+ border-radius: 20px;
+}
+.ortakapsayici{
+    display: flex;
+    height: 100%;
+  justify-content: center;
+  
+}
+.ortakapsayici .solDiv{
+width: 45vw;
+height: 25vw;
+background-color: #efeee5;
+color:#274546;
+margin-left: 10px;
+margin-top: 5%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ortakapsayici .sagDiv{
+    width: 45vw;
+    height:35vw;
+    background-color: #274546;
+    margin-right: 10px;
+    }
+    span{ 
+        opacity: 0.80;
+    }
+        .randevuH1{
+            text-align: center;
+            color: #274546;
+            font-size: 3vw;
+            margin-left:1vw;
+        }
+        .aciklamaSpan{
+            text-align: left;
+            
+            color: #efeee5;
+            text-align: center;
+            
+            padding-top: 10%;
+            
+        }
+        .anasayfaButton{
+            margin-top: 5%;
+           
+            margin-left: 25%;
+            
+        }
+        .anasayfaButton button{
+            width:20vw;
+            height:5vw;
+            font-size: 2vw;
+            color: #274546;
+            background-color: #efeee5;
+            border-radius: 10px;
+            border-style: none;
+        }
+      
+        
+        
+        .aciklamaSpan .spanBaslik{
+          
+          
+           
+           font-size: 5vw;
+           
+        }
+        .kapsayici  .randevuButtonContainer{
+            width: 50%;
+            height: 40%;
+            display: block;
+            margin-top: 50px;
+            font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: fixed;
+            color: #ffffff;
+            
+            }
+           
+            .randevuButtonContainer button{
+              width: 50vw;
+              color: #ffffff;
+             height: 10vw;
+             padding-top: 10px;
+             background: linear-gradient(45deg, #71c5ee, #025091);
+                border-radius: 20px;
+                border:none;
+                text-align: center;
+                padding: 5px;
+                background-repeat: no-repeat;
+                outline: none;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+            .randevuOlusturLogo{
+                width: 70px;
+                height: 70px;
+                align-items: center;
+
+            }
+            .ortakapsayici .solDiv img{
+                
+                width: 10vw;
+                border-radius: 50%;
+            }
+            .ortakapsayici .solDiv h1{
+                justify-content:center ;
+                text-align: center;
+                font-size: 3vw;
+            }
+        
+        .randevuOlusturKisiLogo{
+            width: 70px;
+            height: 70px;
+            align-items: center;
+            padding-left: 10px;
+
+        }
+            .randevubanner{
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                
+}          

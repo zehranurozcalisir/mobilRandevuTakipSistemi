@@ -1,0 +1,321 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	
+	font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+.kapsayici{
+    width:90%;
+    height: 90%;
+        position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+
+ border-radius: 20px;
+}
+
+.ortakapsayici{
+    display: flex;
+    height: 100%;
+  justify-content: center;
+  
+}
+.ortakapsayici .solDiv{
+width: 45vw;
+height: 25vw;
+background-color: #efeee5;
+color:#274546;
+margin-left: 10px;
+margin-top: 5%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.ortakapsayici .sagDiv{
+    width: 45vw;
+    height:35vw;
+    background-color: #274546;
+    
+    margin-right: 10px;
+   
+    
+    }
+    span{ 
+        opacity: 0.80;
+    }
+    .kapsayici  .surnameContainer{
+        width: 70%;
+        height: 3%;
+        display: block;
+        margin-top: 50px;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        
+        }
+        .surnameContainer label{
+            opacity: 0.90;  
+            text-align: center;
+        }
+        .surnameContainer input{
+          width: 100%;
+          height: 100%;
+            padding-top: 10px;
+            opacity: 0.90;
+            border-top: none;
+            border-left:none;
+            border-right:none;
+            border-bottom-color:#000000;
+            background-image: url('signup/name.png');
+            background-size:15px;
+            background-position-y: center;
+            text-align: center;
+            padding: 5px;
+            background-repeat: no-repeat;
+            outline: none;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        .kapsayici  .mailContainer{
+            width: 70%;
+            height: 3%;
+            display: block;
+            margin-top: 50px;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: fixed;
+            
+            }
+            .mailContainer label{
+                opacity: 0.90;  
+                text-align: center;
+            }
+            .mailContainer input{
+              width: 100%;
+              height: 100%;
+                padding-top: 10px;
+                opacity: 0.90;
+                border-top: none;
+                border-left:none;
+                border-right:none;
+                border-bottom-color:#000000;
+                background-image: url('signup/name.png');
+                background-size:15px;
+                background-position-y: center;
+                text-align: center;
+                padding: 5px;
+                background-repeat: no-repeat;
+                outline: none;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+        
+        .randevuH1{
+            text-align: center;
+            color: #274546;
+            font-size: 45px;
+            margin-left: 20px;
+        }
+        .aciklamaSpan{
+            text-align: left;
+            
+            color: #efeee5;
+            text-align: center;
+            
+            padding-top: 5%;
+            
+        }
+        .anasayfaButton{
+            margin-top: 2%;
+            margin-left: 25%;
+            
+        }
+        .anasayfaButton button{
+            width: 70%;
+            height: 50px;
+            font-size: 20px;
+            color: #274546;
+            background-color: #efeee5;
+            border-radius: 10px;
+            border-style: none;
+        }
+      
+        
+        .aciklamaSpan .spanAciklama span{
+            border-bottom: #efeee5;
+           border-bottom-style:solid ;
+           border-bottom-width:1px;
+           margin: 20px;
+
+           font-size: 250%;
+           
+    
+        }
+       
+       
+           
+            .randevuButtonContainer button{
+              width: 100%;
+              color: #ffffff;
+             height: 45px;
+             padding-top: 10px;
+             background: linear-gradient(45deg, #71c5ee, #025091);
+                border-radius: 20px;
+                border:none;
+                text-align: center;
+                padding: 5px;
+                background-repeat: no-repeat;
+                outline: none;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+            .randevuOlusturLogo{
+                width: 70px;
+                height: 70px;
+                align-items: center;
+
+            }
+            .ortakapsayici .solDiv img{
+                
+                width: 10vw;
+                border-radius: 50%;
+            }
+            .ortakapsayici .solDiv h1{
+                justify-content:center ;
+                text-align: center;
+                font-size: 3vw;
+            }
+        
+        .randevuOlusturKisiLogo{
+            width: 70px;
+            height: 70px;
+            align-items: center;
+            padding-left: 10px;
+
+        }
+            .randevubanner{
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                
+}          
+            
+  
+    .saatContainer{
+        margin-bottom: 20px;
+    }
+    .aciklamaContainer label{
+        opacity: 0.90;  
+        text-align: center;
+        font-size: 3vw;
+    }
+   
+      
+    .aciklamaContainer textarea{
+      width: 80%;
+      height: 6vw;
+        opacity: 0.90;
+        border-top: none;
+        border-left:none;
+        border-right:none;
+        background-image: url('signup/name.png');
+        background-size:15px;
+        background-position-y: center;
+        text-align: center;
+        padding: 5px;
+        background-repeat: no-repeat;
+        outline: none;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    textarea {
+        font-size: 2vw;
+        text-align: center;
+padding-top: 10vh;      }
+
+
+/* .kapsayici  .aciklamaContainer{
+    width: 70%;
+    height: 3%;
+    display: block;
+    margin-top: 50px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    
+    }
+    .aciklamaContainer label{
+        opacity: 0.90;  
+        text-align: center;
+    }
+    .aciklamaContainer textarea{
+      width: 100%;
+      height: 100%;
+        padding-top: 10px;
+        opacity: 0.90;
+        border-top: none;
+        border-left:none;
+        border-right:none;
+        border-bottom-color:#000000;
+        background-image: url('signup/name.png');
+        background-size:15px;
+        background-position-y: center;
+        text-align: center;
+        padding: 5px;
+        background-repeat: no-repeat;
+        outline: none;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    .kapsayici  .saatContainer{
+        width: 70%;
+        height: 3%;
+        display: block;
+        margin-top: 50px;
+        font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        
+        }
+        .saatContainer label{
+            opacity: 0.90;  
+            text-align: center;
+        }
+        .saatContainer input{
+          width: 100%;
+          height: 100%;
+            padding-top: 10px;
+            opacity: 0.90;
+            border-top: none;
+            border-left:none;
+            border-right:none;
+            border-bottom-color:#000000;
+            background-image: url('signup/name.png');
+            background-size:15px;
+            background-position-y: center;
+            text-align: center;
+            padding: 5px;
+            background-repeat: no-repeat;
+            outline: none;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        } */

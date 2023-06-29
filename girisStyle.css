@@ -1,0 +1,165 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	
+	font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+.kapsayici{
+    width:90vw;
+    height: 90vw;
+        position: absolute;
+   top: 52vw;
+   left: 55vw;
+  transform: translate(-50vw, -50vw);
+
+ border-radius: 20px;
+}
+.ortakapsayici{
+    display: flex;
+    height:100vw;
+  justify-content: center;
+}
+.ortakapsayici .solDiv{
+    width: 45vw;
+    height: 25vw;
+background-color: #efeee5;
+margin-left: 10px;
+margin-top: 5vw;
+position: relative;
+color: #274546;
+font-size: 150%;
+font-weight:bolder;
+align-items: center;
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+.ortakapsayici .sagDiv{
+    width: 45vw;
+    height:35vw;
+    background-color: #274546;
+    
+    margin-right: 1vw;
+    
+    }
+  
+        
+        .randevuH1{
+            text-align: center;
+            color: #274546;
+            font-size: 3vw;
+           margin-left: 1vw;
+        }
+        .aciklamaSpan{
+            text-align: left;
+            
+            color: #efeee5;
+            text-align: center;
+            
+          padding-top: 7vw;
+            
+        }
+        .anasayfaButton{
+            margin-top: 0.5vw;
+           
+          
+            
+        }
+        
+        .anasayfaButton button{
+            width:20vw;
+            height:3vw;
+            font-size: 2vw;
+            color: #274546;
+            background-color: #efeee5;
+            border-radius:1vw;
+            border-style: none;
+            margin-left: 12vw;
+        }
+      
+        
+        .randevuOlusturLogo{
+            width: 7vw;
+            height: 7vw;
+            align-items: center;
+
+        }
+        .randevubanner{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+}          
+        
+    
+    .emailContainer{
+        margin-bottom: 5vw;
+        height:3vw;
+    }
+    .emailContainer label{
+        opacity: 0.90;  
+        text-align: center;
+        font-size: 2vw;
+       
+    }
+    .emailContainer input{
+      width: 30vw;
+      height: 3vw;
+        padding-top:2vw;
+        opacity: 0.90;
+        border-top: none;
+        border-left:none;
+        border-right:none;
+        border-bottom-color:#000000;
+        background-image: url('signup/name.png');
+        background-size:15px;
+        background-position-y: center;
+        text-align: center;
+        padding: 0.5vw;
+       margin-top: 0.2vw;
+        background-repeat: no-repeat;
+        outline: none;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    .sifreContainer{
+        margin-bottom: 5vw;
+        height:3vw;
+    }
+    .sifreContainer label{
+        opacity: 0.90;  
+        text-align: center;
+        font-size: 2vw;
+       
+       
+    }
+    .sifreContainer input{
+        width: 30vw;
+        height: 3vw;
+          padding-top:2vw;
+          opacity: 0.90;
+          border-top: none;
+          border-left:none;
+          border-right:none;
+          border-bottom-color:#000000;
+          background-image: url('signup/name.png');
+          background-size:15px;
+          background-position-y: center;
+          text-align: center;
+          padding: 0.5vw;
+         margin-top: 0.2vw;
+          background-repeat: no-repeat;
+          outline: none;
+          -webkit-transition: width 0.4s ease-in-out;
+          transition: width 0.4s ease-in-out;
+    }
